@@ -18,9 +18,9 @@ Usage
 At the moment include the default recipe. Plans are to implement as a
 LWRP with something like the following structure:
 
-'''ruby
+```ruby
 lxc 'my-container' do
   release 'oneiric'
   ip '0.0.0.0'
 end
-'''
+```
